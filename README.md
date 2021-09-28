@@ -14,7 +14,7 @@
 
 ### Clone
 
-- Clone this project to your local machine
+- Clone this project to your local machine `https://github.com/dghazi12/OptimaAnalytics.git`
 
 ### Setup
 
@@ -29,3 +29,7 @@
   $ npm start
   ```
 - Visit `http://localhost:3000`
+
+### Author
+
+David Ghazi
