@@ -1,0 +1,51 @@
+.welcome-thread-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-form {
+  margin: auto 0 auto 0;
+}
+
+.post-button {
+  position: absolute;
+  right: 0;
+  padding-right: 100px;
+  margin-top: 20px;
+}
+
+.form-thread-container {
+  margin-top: 10px;
+}
+
+.testing:disabled {
+  background-color: #cccccc;
+}
+
+@media screen and (max-width: 1000px) {
+  .post-button {
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .search-container {
+    display: grid;
+  }
+  .search-form {
+    text-align: center;
+  }
+  .post-button {
+    position: relative;
+    text-align: center;
+    margin-top: 0px;
+  }
+}

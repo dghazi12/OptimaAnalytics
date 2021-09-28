@@ -1,0 +1,26 @@
+.new-button {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: center;
+  border-radius: 300px;
+  border: 3px solid black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .new-button {
+    width: 120px;
+    height: 32px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}

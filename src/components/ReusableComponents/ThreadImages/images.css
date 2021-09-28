@@ -1,0 +1,15 @@
+.images-container {
+  display: grid;
+  align-items: center;
+}
+
+.image {
+  height: 100%;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .image-container {
+    display: none;
+  }
+}

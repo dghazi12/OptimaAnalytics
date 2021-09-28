@@ -1,0 +1,36 @@
+.bar-style {
+  width: 220px;
+  background: #f2f1f9;
+  border: none;
+  padding: 10px;
+  border-radius: 300px;
+  margin: 20px 0px 20px 20px;
+}
+
+.font-icon {
+  margin-left: 10px;
+  font-size: 25px;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .bar-style {
+    width: 180px;
+    padding: 8px;
+  }
+  .font-icon {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bar-style {
+    width: 150px;
+    padding: 5px;
+  }
+  .font-icon {
+    font-size: 18px;
+  }
+}
